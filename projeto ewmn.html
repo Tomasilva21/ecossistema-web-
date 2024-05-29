@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Projeto EWMN
-        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto EWMN </title>
     </head>
+    <body>
+        <header>
+            <h1>Titulo</h1>
+        </header>
+        <main>
+            <form id="dataform">
+                <label for="inputData">Entrada:</label>
+                <input type="text" id="inputData" name="inputData" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="results">
+                <h2>Resultados</h2>
+                <p id="resultText"></p>
+            </div>    
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
